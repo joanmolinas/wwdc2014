@@ -23,21 +23,21 @@
 		2E90CCA318F35DDB00383782 /* UIColor+ColorWithHex.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E90CCA218F35DDB00383782 /* UIColor+ColorWithHex.m */; };
 		2E90CCB218F415DE00383782 /* JMScroll.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E90CCB118F415DE00383782 /* JMScroll.m */; };
 		2E90CCB518F42A2100383782 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E90CCB418F42A2100383782 /* MapKit.framework */; };
-		2E90CCB818F49F6000383782 /* JMColCV.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E90CCB718F49F6000383782 /* JMColCV.m */; };
 		2E90CCBC18F4A14A00383782 /* SchoolVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E90CCBB18F4A14A00383782 /* SchoolVC.m */; };
 		2E90CCD818F5F2DA00383782 /* PNChartLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E90CCCB18F5F2DA00383782 /* PNChartLabel.m */; };
 		2E90CCD918F5F2DA00383782 /* PNCircleChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E90CCCD18F5F2DA00383782 /* PNCircleChart.m */; };
 		2E90CCDA18F5F2DA00383782 /* PNColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E90CCCF18F5F2DA00383782 /* PNColor.m */; };
 		2E90CCE118F5F47B00383782 /* UICountingLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E90CCE018F5F47B00383782 /* UICountingLabel.m */; };
 		2E90CCE418F5FBC300383782 /* ChartVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E90CCE318F5FBC300383782 /* ChartVC.m */; };
-		BE40AEFC18F2975A0002FB07 /* UIViewController+MaryPopin.m in Sources */ = {isa = PBXBuildFile; fileRef = BE40AEFB18F2975A0002FB07 /* UIViewController+MaryPopin.m */; };
+		BE6663AF19126A80003A6D29 /* UIViewController+MaryPopin.m in Sources */ = {isa = PBXBuildFile; fileRef = BE6663AE19126A80003A6D29 /* UIViewController+MaryPopin.m */; };
+		BE6663B519126AA3003A6D29 /* ArrowVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BE6663B219126AA3003A6D29 /* ArrowVC.m */; };
+		BE6663B619126AA3003A6D29 /* ArrowView.m in Sources */ = {isa = PBXBuildFile; fileRef = BE6663B419126AA3003A6D29 /* ArrowView.m */; };
+		BE6663BA19126ACD003A6D29 /* JMColCV.m in Sources */ = {isa = PBXBuildFile; fileRef = BE6663B919126ACD003A6D29 /* JMColCV.m */; };
 		BE6BD08418F99D2500973861 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE6BD08318F99D2500973861 /* Images.xcassets */; };
 		BE8D9EE318F6C97B00277328 /* passionVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BE8D9EE218F6C97B00277328 /* passionVC.m */; };
 		BE94BEF418F5546600472680 /* workVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BE94BEF318F5546600472680 /* workVC.m */; };
 		BE9B067818F8837700E24D72 /* awardVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BE9B067718F8837700E24D72 /* awardVC.m */; };
 		BEA97ED318F2DA1900F0904C /* iamVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BEA97ED218F2DA1900F0904C /* iamVC.m */; };
-		BEE13E4A18F7DE6E0006622B /* ArrowVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BEE13E4718F7DE6E0006622B /* ArrowVC.m */; };
-		BEE13E4B18F7DE6E0006622B /* ArrowView.m in Sources */ = {isa = PBXBuildFile; fileRef = BEE13E4918F7DE6E0006622B /* ArrowView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -74,8 +74,6 @@
 		2E90CCB018F415DE00383782 /* JMScroll.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMScroll.h; sourceTree = "<group>"; };
 		2E90CCB118F415DE00383782 /* JMScroll.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMScroll.m; sourceTree = "<group>"; };
 		2E90CCB418F42A2100383782 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
-		2E90CCB618F49F6000383782 /* JMColCV.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JMColCV.h; path = MaryPopin/JMColCV.h; sourceTree = "<group>"; };
-		2E90CCB718F49F6000383782 /* JMColCV.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JMColCV.m; path = MaryPopin/JMColCV.m; sourceTree = "<group>"; };
 		2E90CCBA18F4A14A00383782 /* SchoolVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SchoolVC.h; sourceTree = "<group>"; };
 		2E90CCBB18F4A14A00383782 /* SchoolVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SchoolVC.m; sourceTree = "<group>"; };
 		2E90CCC818F5F2DA00383782 /* PNChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PNChart.h; sourceTree = "<group>"; };
@@ -90,8 +88,14 @@
 		2E90CCE018F5F47B00383782 /* UICountingLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UICountingLabel.m; sourceTree = "<group>"; };
 		2E90CCE218F5FBC300383782 /* ChartVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChartVC.h; sourceTree = "<group>"; };
 		2E90CCE318F5FBC300383782 /* ChartVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChartVC.m; sourceTree = "<group>"; };
-		BE40AEFA18F2975A0002FB07 /* UIViewController+MaryPopin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+MaryPopin.h"; sourceTree = "<group>"; };
-		BE40AEFB18F2975A0002FB07 /* UIViewController+MaryPopin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+MaryPopin.m"; sourceTree = "<group>"; };
+		BE6663AD19126A80003A6D29 /* UIViewController+MaryPopin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+MaryPopin.h"; sourceTree = "<group>"; };
+		BE6663AE19126A80003A6D29 /* UIViewController+MaryPopin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+MaryPopin.m"; sourceTree = "<group>"; };
+		BE6663B119126AA3003A6D29 /* ArrowVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArrowVC.h; sourceTree = "<group>"; };
+		BE6663B219126AA3003A6D29 /* ArrowVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArrowVC.m; sourceTree = "<group>"; };
+		BE6663B319126AA3003A6D29 /* ArrowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArrowView.h; sourceTree = "<group>"; };
+		BE6663B419126AA3003A6D29 /* ArrowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArrowView.m; sourceTree = "<group>"; };
+		BE6663B819126ACD003A6D29 /* JMColCV.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMColCV.h; sourceTree = "<group>"; };
+		BE6663B919126ACD003A6D29 /* JMColCV.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMColCV.m; sourceTree = "<group>"; };
 		BE6BD08318F99D2500973861 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		BE8D9EE118F6C97B00277328 /* passionVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = passionVC.h; sourceTree = "<group>"; };
 		BE8D9EE218F6C97B00277328 /* passionVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = passionVC.m; sourceTree = "<group>"; };
@@ -101,10 +105,6 @@
 		BE9B067718F8837700E24D72 /* awardVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = awardVC.m; sourceTree = "<group>"; };
 		BEA97ED118F2DA1900F0904C /* iamVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iamVC.h; sourceTree = "<group>"; };
 		BEA97ED218F2DA1900F0904C /* iamVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iamVC.m; sourceTree = "<group>"; };
-		BEE13E4618F7DE6E0006622B /* ArrowVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArrowVC.h; sourceTree = "<group>"; };
-		BEE13E4718F7DE6E0006622B /* ArrowVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArrowVC.m; sourceTree = "<group>"; };
-		BEE13E4818F7DE6E0006622B /* ArrowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArrowView.h; sourceTree = "<group>"; };
-		BEE13E4918F7DE6E0006622B /* ArrowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArrowView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -166,10 +166,10 @@
 		2E2B748518EF58F700E8AE24 /* JoanMolinas */ = {
 			isa = PBXGroup;
 			children = (
+				BE6663BB19126AD1003A6D29 /* Collection */,
+				BE6663B719126AA8003A6D29 /* Arrow */,
+				BE6663B019126A8C003A6D29 /* Transition */,
 				2E90CCC318F5F2DA00383782 /* PNChart */,
-				BE40AEF918F2975A0002FB07 /* Transition */,
-				BEE13E4518F7DE6E0006622B /* JMArrow */,
-				2E90CCB918F49F6800383782 /* Collection */,
 				2E90CCB318F41CA700383782 /* Scroll */,
 				2E90CCA418F35DFD00383782 /* UIColor */,
 				2E2B748E18EF58F700E8AE24 /* AppDelegate.h */,
@@ -242,15 +242,6 @@
 			name = Scroll;
 			sourceTree = "<group>";
 		};
-		2E90CCB918F49F6800383782 /* Collection */ = {
-			isa = PBXGroup;
-			children = (
-				2E90CCB618F49F6000383782 /* JMColCV.h */,
-				2E90CCB718F49F6000383782 /* JMColCV.m */,
-			);
-			name = Collection;
-			sourceTree = "<group>";
-		};
 		2E90CCC318F5F2DA00383782 /* PNChart */ = {
 			isa = PBXGroup;
 			children = (
@@ -276,26 +267,33 @@
 			path = ThirdPart;
 			sourceTree = "<group>";
 		};
-		BE40AEF918F2975A0002FB07 /* Transition */ = {
+		BE6663B019126A8C003A6D29 /* Transition */ = {
 			isa = PBXGroup;
 			children = (
-				BE40AEFA18F2975A0002FB07 /* UIViewController+MaryPopin.h */,
-				BE40AEFB18F2975A0002FB07 /* UIViewController+MaryPopin.m */,
+				BE6663AD19126A80003A6D29 /* UIViewController+MaryPopin.h */,
+				BE6663AE19126A80003A6D29 /* UIViewController+MaryPopin.m */,
 			);
 			name = Transition;
-			path = MaryPopin;
 			sourceTree = "<group>";
 		};
-		BEE13E4518F7DE6E0006622B /* JMArrow */ = {
+		BE6663B719126AA8003A6D29 /* Arrow */ = {
 			isa = PBXGroup;
 			children = (
-				BEE13E4618F7DE6E0006622B /* ArrowVC.h */,
-				BEE13E4718F7DE6E0006622B /* ArrowVC.m */,
-				BEE13E4818F7DE6E0006622B /* ArrowView.h */,
-				BEE13E4918F7DE6E0006622B /* ArrowView.m */,
+				BE6663B119126AA3003A6D29 /* ArrowVC.h */,
+				BE6663B219126AA3003A6D29 /* ArrowVC.m */,
+				BE6663B319126AA3003A6D29 /* ArrowView.h */,
+				BE6663B419126AA3003A6D29 /* ArrowView.m */,
 			);
-			name = JMArrow;
-			path = MVArrowOverlay;
+			name = Arrow;
+			sourceTree = "<group>";
+		};
+		BE6663BB19126AD1003A6D29 /* Collection */ = {
+			isa = PBXGroup;
+			children = (
+				BE6663B819126ACD003A6D29 /* JMColCV.h */,
+				BE6663B919126ACD003A6D29 /* JMColCV.m */,
+			);
+			name = Collection;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -402,17 +400,17 @@
 				2E90CCDA18F5F2DA00383782 /* PNColor.m in Sources */,
 				2E90CCE118F5F47B00383782 /* UICountingLabel.m in Sources */,
 				BE8D9EE318F6C97B00277328 /* passionVC.m in Sources */,
-				BEE13E4A18F7DE6E0006622B /* ArrowVC.m in Sources */,
 				2E90CCA318F35DDB00383782 /* UIColor+ColorWithHex.m in Sources */,
 				2E90CCD918F5F2DA00383782 /* PNCircleChart.m in Sources */,
 				2E2B748C18EF58F700E8AE24 /* main.m in Sources */,
 				2E90CCB218F415DE00383782 /* JMScroll.m in Sources */,
-				2E90CCB818F49F6000383782 /* JMColCV.m in Sources */,
 				BE94BEF418F5546600472680 /* workVC.m in Sources */,
 				2E90CCD818F5F2DA00383782 /* PNChartLabel.m in Sources */,
-				BEE13E4B18F7DE6E0006622B /* ArrowView.m in Sources */,
-				BE40AEFC18F2975A0002FB07 /* UIViewController+MaryPopin.m in Sources */,
 				2E90CCBC18F4A14A00383782 /* SchoolVC.m in Sources */,
+				BE6663B619126AA3003A6D29 /* ArrowView.m in Sources */,
+				BE6663AF19126A80003A6D29 /* UIViewController+MaryPopin.m in Sources */,
+				BE6663BA19126ACD003A6D29 /* JMColCV.m in Sources */,
+				BE6663B519126AA3003A6D29 /* ArrowVC.m in Sources */,
 				2E90CCE418F5FBC300383782 /* ChartVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

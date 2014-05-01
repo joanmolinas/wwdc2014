@@ -75,7 +75,7 @@
     
     UITextView *tv = [UITextView new];
     tv.frame = CGRectMake(8, 150, 255, 290);
-    tv.text =  @"My name is Joan Molinas, I'm 19 years old and I live in El Vendrell. I started programming when I was 14.\nI develope Apps, Webs, Librarys and anything I can think of.\nAt the moment I work on Eat Out as iOS Lead Developer and I make a websites.\nI love clean work.\nIt's a pleasure.";
+    tv.text =  @"My name is Joan Molinas, I'm 19 years old and I live in El Vendrell. I started programming when I was 14.\nI develope Apps, Webs, Librarys and anything I can think of.\nAt the moment I work on Eat Out as iOS Lead Developer and I make some websites.\nI love clean work.\nIt's a pleasure.";
     tv.textColor = [UIColor colorWithHexString:@"979797"];
     tv.backgroundColor = [UIColor clearColor];
     tv.font = [UIFont fontWithName:@"Avenir Next Ultra Light" size: IS_IPHONE_5 ? 15 : 13.5];
