@@ -32,12 +32,12 @@
 		BE6663AF19126A80003A6D29 /* UIViewController+MaryPopin.m in Sources */ = {isa = PBXBuildFile; fileRef = BE6663AE19126A80003A6D29 /* UIViewController+MaryPopin.m */; };
 		BE6663B519126AA3003A6D29 /* ArrowVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BE6663B219126AA3003A6D29 /* ArrowVC.m */; };
 		BE6663B619126AA3003A6D29 /* ArrowView.m in Sources */ = {isa = PBXBuildFile; fileRef = BE6663B419126AA3003A6D29 /* ArrowView.m */; };
-		BE6663BA19126ACD003A6D29 /* JMColCV.m in Sources */ = {isa = PBXBuildFile; fileRef = BE6663B919126ACD003A6D29 /* JMColCV.m */; };
 		BE6BD08418F99D2500973861 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE6BD08318F99D2500973861 /* Images.xcassets */; };
 		BE8D9EE318F6C97B00277328 /* passionVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BE8D9EE218F6C97B00277328 /* passionVC.m */; };
 		BE94BEF418F5546600472680 /* workVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BE94BEF318F5546600472680 /* workVC.m */; };
 		BE9B067818F8837700E24D72 /* awardVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BE9B067718F8837700E24D72 /* awardVC.m */; };
 		BEA97ED318F2DA1900F0904C /* iamVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BEA97ED218F2DA1900F0904C /* iamVC.m */; };
+		BEB1136E1912962100997E82 /* AWCollectionViewDialLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = BEB1136D1912962100997E82 /* AWCollectionViewDialLayout.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -94,8 +94,6 @@
 		BE6663B219126AA3003A6D29 /* ArrowVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArrowVC.m; sourceTree = "<group>"; };
 		BE6663B319126AA3003A6D29 /* ArrowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArrowView.h; sourceTree = "<group>"; };
 		BE6663B419126AA3003A6D29 /* ArrowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArrowView.m; sourceTree = "<group>"; };
-		BE6663B819126ACD003A6D29 /* JMColCV.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMColCV.h; sourceTree = "<group>"; };
-		BE6663B919126ACD003A6D29 /* JMColCV.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMColCV.m; sourceTree = "<group>"; };
 		BE6BD08318F99D2500973861 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		BE8D9EE118F6C97B00277328 /* passionVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = passionVC.h; sourceTree = "<group>"; };
 		BE8D9EE218F6C97B00277328 /* passionVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = passionVC.m; sourceTree = "<group>"; };
@@ -105,6 +103,8 @@
 		BE9B067718F8837700E24D72 /* awardVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = awardVC.m; sourceTree = "<group>"; };
 		BEA97ED118F2DA1900F0904C /* iamVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iamVC.h; sourceTree = "<group>"; };
 		BEA97ED218F2DA1900F0904C /* iamVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iamVC.m; sourceTree = "<group>"; };
+		BEB1136C1912962100997E82 /* AWCollectionViewDialLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWCollectionViewDialLayout.h; sourceTree = "<group>"; };
+		BEB1136D1912962100997E82 /* AWCollectionViewDialLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AWCollectionViewDialLayout.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -290,8 +290,8 @@
 		BE6663BB19126AD1003A6D29 /* Collection */ = {
 			isa = PBXGroup;
 			children = (
-				BE6663B819126ACD003A6D29 /* JMColCV.h */,
-				BE6663B919126ACD003A6D29 /* JMColCV.m */,
+				BEB1136C1912962100997E82 /* AWCollectionViewDialLayout.h */,
+				BEB1136D1912962100997E82 /* AWCollectionViewDialLayout.m */,
 			);
 			name = Collection;
 			sourceTree = "<group>";
@@ -395,6 +395,7 @@
 			files = (
 				BEA97ED318F2DA1900F0904C /* iamVC.m in Sources */,
 				2E2B749618EF58F700E8AE24 /* ViewController.m in Sources */,
+				BEB1136E1912962100997E82 /* AWCollectionViewDialLayout.m in Sources */,
 				BE9B067818F8837700E24D72 /* awardVC.m in Sources */,
 				2E2B749018EF58F700E8AE24 /* AppDelegate.m in Sources */,
 				2E90CCDA18F5F2DA00383782 /* PNColor.m in Sources */,
@@ -409,7 +410,6 @@
 				2E90CCBC18F4A14A00383782 /* SchoolVC.m in Sources */,
 				BE6663B619126AA3003A6D29 /* ArrowView.m in Sources */,
 				BE6663AF19126A80003A6D29 /* UIViewController+MaryPopin.m in Sources */,
-				BE6663BA19126ACD003A6D29 /* JMColCV.m in Sources */,
 				BE6663B519126AA3003A6D29 /* ArrowVC.m in Sources */,
 				2E90CCE418F5FBC300383782 /* ChartVC.m in Sources */,
 			);

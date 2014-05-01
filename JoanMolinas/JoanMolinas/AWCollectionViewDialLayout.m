@@ -1,5 +1,5 @@
 //
-// JMColCV.m
+//  AWCollectionViewDialLayout.m
 //
 //
 //  Created by Antoine Wette on 30.10.13.
@@ -9,9 +9,9 @@
 //  www.antoinewette.com
 //
 
-#import "JMColCV.h"
+#import "AWCollectionViewDialLayout.h"
 
-@implementation JMColCV
+@implementation AWCollectionViewDialLayout
 
 
 
@@ -27,10 +27,10 @@
 -(id)initWithRadius: (CGFloat) radius andAngularSpacing: (CGFloat) spacing andCellSize: (CGSize) cell andAlignment:(WheelAlignmentType)alignment andItemHeight:(CGFloat)height andXOffset: (CGFloat) xOff{
     if ((self = [super init]) != NULL)
     {
-        self.dialRadius = radius;
-        self.cellSize = cell;
+        self.dialRadius = radius;//420.0f;
+        self.cellSize = cell;//(CGSize){ 220.0f, 80.0f };
         self.itemHeight = height;
-        self.AngularSpacing = spacing;;
+        self.AngularSpacing = spacing;//8.0f;
         self.xOffset = xOff;
         self.wheelType = alignment;
         [self setup];
@@ -74,6 +74,9 @@
     int firstItem = fmax(0, activeIndex - (int)(maxVisibleOnScreen/2) );
     int lastItem = fmin( self.cellCount-1 , activeIndex + (int)(maxVisibleOnScreen/2) );
 
+    //float firstItem = fmax(0 , floorf(minY / self.itemHeight) - (90/self.AngularSpacing) );
+    //float lastItem = fmin( self.cellCount-1 , floorf(maxY / self.itemHeight) );
+
     for( int i = firstItem; i <= lastItem; i++ ){
         NSIndexPath *indexPath = [NSIndexPath indexPathForItem:i inSection:0];
         UICollectionViewLayoutAttributes *theAttributes = [self layoutAttributesForItemAtIndexPath:indexPath];
@@ -105,6 +108,9 @@
     float deltaX;
     CGAffineTransform translationT;
     CGAffineTransform rotationT = CGAffineTransformMakeRotation(self.AngularSpacing* newIndex *M_PI/180);
+    if(indexPath.item == 3){
+        NSLog(@"angle 3 :%f", self.AngularSpacing* newIndex);
+    }
     
     
     if( self.wheelType == WHEELALIGNMENTLEFT){
@@ -119,8 +125,18 @@
         translationT =CGAffineTransformMakeTranslation(self.dialRadius  + ((1 - scaleFactor) * -30) , 0);
     }
     
+    
+    
     CGAffineTransform scaleT = CGAffineTransformMakeScale(scaleFactor, scaleFactor);
     theAttributes.alpha = scaleFactor;
+    
+    /*
+    if( fabs(self.AngularSpacing* newIndex) > 90 ){
+        theAttributes.hidden = YES;
+    }else{
+        theAttributes.hidden = NO;
+    }
+     */
     
     theAttributes.transform = CGAffineTransformConcat(scaleT, CGAffineTransformConcat(translationT, rotationT));
     theAttributes.zIndex = indexPath.item;

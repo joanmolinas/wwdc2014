@@ -1,5 +1,5 @@
 //
-// JMColCV.h
+//  AWCollectionViewDialLayout.h
 //  
 //
 //  Created by Antoine Wette on 30.10.13.
@@ -11,7 +11,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface JMColCV : UICollectionViewLayout
+@interface AWCollectionViewDialLayout : UICollectionViewLayout
 
 typedef enum WheelAlignmentType : NSInteger WheelAlignmentType;
 enum WheelAlignmentType : NSInteger {

@@ -7,7 +7,7 @@
 //
 
 #import "SchoolVC.h"
-#import "JMColCV.h"
+#import "AWCollectionViewDialLayout.h"
 #import "UIViewController+MaryPopin.h"
 #import "UIColor+ColorWithHex.h"
 #import "ArrowView.h"
@@ -18,7 +18,7 @@
 @property NSArray *a,*b,*c;
 @property (nonatomic, strong) UILabel *l;
 @property (nonatomic) NSUInteger numTaps;
-@property (nonatomic, strong) JMColCV *dialLayout;
+@property (nonatomic, strong) AWCollectionViewDialLayout *dialLayout;
 
 @end
 @implementation SchoolVC
@@ -37,7 +37,7 @@
     _cv.backgroundColor = [UIColor clearColor];
     
 
-    _dialLayout = [[JMColCV alloc] initWithRadius:300.0  andAngularSpacing:41.0 andCellSize:CGSizeMake(305, 242) andAlignment:WHEELALIGNMENTCENTER andItemHeight:252  andXOffset:160];
+    _dialLayout = [[AWCollectionViewDialLayout alloc] initWithRadius:300.0  andAngularSpacing:41.0 andCellSize:CGSizeMake(305, 242) andAlignment:WHEELALIGNMENTCENTER andItemHeight:252  andXOffset:160];
     [_cv setCollectionViewLayout:_dialLayout];
     [self.view addSubview:_cv];
     
